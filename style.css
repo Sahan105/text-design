@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: #f1f1f1;
+    line-height: 100vh;
+}
+
+span {
+    opacity: 0;
+    transition: all 2s ease;
+    transform: rotateX(5rad);
+    display: inline-block;
+}
+
+span.fade {
+    opacity: 1;
+    transform: rotateX(0);
+}
